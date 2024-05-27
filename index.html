@@ -4,78 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica HTML</title>
+    <title>Impacto de las Tecnologías Web</title>
     <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
 <!-- Barra de navegacion -->
-
     <nav>
         <section>
+            <img src="img/logo.png" width="10%" alt="Logo">
             <ul>
-                <img src="img/luffy.png" width="15%">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Services</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sociedad.html">Impacto en la Sociedad</a></li>
+                <li><a href="negocios.html">Impacto en los Negocios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </section>
     </nav>
 
-<!-- Cabecera -->
-<header>
-    <h1>Mi primera página</h1>
-    <p>Hola mundo</p>
-</header>
+    <!-- Cabecera -->
+    <header>
+        <h1>Impacto de las Tecnologías Web en la Sociedad y los Negocios</h1>
+        <p>Explorando cómo las tecnologías web transforman nuestra vida cotidiana y el mundo empresarial.</p>
+    </header>
 
-<!-- Menu -->
-<aside>
-    <section>
-        <ul>
-            <li><a href="">Item 1</a></li>
-            <li><a href="">Item 2</a></li>
-            <li><a href="">Item 3</a></li>
-        </ul>
-    </section>
-</aside>
+    <!-- Contenido principal -->
+    <div id="contenido">
+        <section id="introduccion">
+            <article>
+                <h2>Introducción</h2>
+                <p>Las tecnologías web han revolucionado tanto la sociedad como los negocios en las últimas décadas. Desde la comunicación hasta el comercio, su impacto es innegable.</p>
+            </article>
+        </section>
 
-<!-- Contenido -->
-<div id="contenido">
-    
-    <!-- Secciones -->
-    <section id="articulos">
-        <!-- Items -->
-        <article>
-            <h5>Titulo del articulo</h5>
-            <p>Descripcion del articulo</p>
-            <a href="">Link del articulo</a>
-        </article>
+        <section id="datos-tabulares">
+            <article>
+                <h2>Impacto de las Tecnologías Web en Números</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Año</th>
+                            <th>Usuarios de Internet (millones)</th>
+                            <th>Transacciones en E-commerce (billones USD)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2015</td>
+                            <td>3200</td>
+                            <td>1.5</td>
+                        </tr>
+                        <tr>
+                            <td>2020</td>
+                            <td>4600</td>
+                            <td>4.2</td>
+                        </tr>
+                        <tr>
+                            <td>2025 (estimado)</td>
+                            <td>6000</td>
+                            <td>6.8</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="https://es.statista.com/estadisticas/1242096/facturacion-del-comercio-electronico-mundial/">Fuente</a>
+            </article>
+        </section>
 
-        <article>
-            <h5>Titulo del articulo 2</h5>
-            <p>Descripcion del articulo 2</p>
-            <a href="">Link del articulo 2</a>
-        </article>
-    </section>
-    <section id="news">
-        <article>
-            <h5>Titulo de la noticia</h5>
-            <p>Descripcion de la noticia</p>
-            <a href="">Link de la noticia</a>
-        </article>
-    </section>
-</div>
+        <section id="videos">
+            <article>
+                <h2>Video sobre el impacto de las tecnologías web</h2>
+                <video controls width="600">
+                    <source src="videos/impacto_tecnologias.mp4" type="video/mp4">
+                </video>
+            </article>
+        </section>
+    </div>
 
-
-<!-- Pie de pagina -->
-<footer>
-    <p>Copyright. alexg</p>
-    <ul>
-        <li><a href="">Enlace de interes</a></li>
-        <li><a href="">Enlace de interes</a></li>
-        <li><a href="">Enlace de interes</a></li>
-    </ul>
-</footer>
-
+    <!-- Pie de página -->
+    <footer>
+        <p>Elaborado por Alexis Guananga</p>
+        <img src="img/gh.png" width="2%" alt="github">
+        <a href="https://github.com/alexgpancho/Practica-HTML">Repositorio Github</a>
+    </footer>
 </body>
 </html>
