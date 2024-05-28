@@ -25,7 +25,7 @@ Este proyecto es una demostración del impacto de las tecnologías web en la soc
 
 1. **HTML5**: 
    - [Referencia de HTML5 en MDN Web Docs](https://developer.mozilla.org/es/docs/Web/HTML)
-   - *"HTML5: The Missing Manual" by Matthew MacDonald*
+   - *"HTML5: Información Mozilla firefox
    
 2. **Impacto Tecnológico en la Sociedad**: 
    - [Artículo sobre el impacto de la tecnología en la sociedad](https://dialnet.unirioja.es/descarga/articulo/4281033.pdf)
